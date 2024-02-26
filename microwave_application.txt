@@ -1,0 +1,20 @@
+3
+setTime finish illegal
+2
+a b
+12
+setTime 0 a setTime 1
+setTime 1 a setTime 1
+setTime 0 b illegal 0
+setTime 1 b finish -1
+finish 0 a illegal 0
+finish 1 a illegal 0
+finish 0 b illegal 0
+finish 1 b finish -1
+illegal 0 a illegal 0
+illegal 1 a illegal 0
+illegal 0 b illegal 0
+illegal 1 b illegal 0
+setTime
+1
+finish
